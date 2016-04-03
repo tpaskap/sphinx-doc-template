@@ -1,0 +1,22 @@
+{
+  "name": "readthedocs",
+  "authors": [
+    "Laurent KAPPEL <lkappel@free.fr>"
+  ],
+  "description": "read the docs",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "lkappel@free.fr",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sphinx-rtd-theme": "https://github.com/snide/sphinx-rtd-theme.git#0.1.9"
+  }
+}
