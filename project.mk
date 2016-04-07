@@ -6,10 +6,10 @@ uninstall: clean
 	@rm -rf bower_components node_modules *~
 
 clean:
-	make clean
-	rmdir build
+	@(mkdir -p build)
+	@make clean
 
 html:
-	make html
+	@make html
 
 all: uninstall install html
